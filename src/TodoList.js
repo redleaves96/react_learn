@@ -40,7 +40,7 @@ class TodoList extends Component {
         
     }
 
-    handleIntChange(e) {
+    handleInputChange(e) {
         
         const action = getInputChangeAction(e.target.value);
         store.dispatch(action);
